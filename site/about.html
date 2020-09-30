@@ -3,6 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        /* p{
+            height: 23px; font-size: 12px; color: blue;
+        }
+        div, span {
+            background-color: blue;
+        }   */
+        /* a:hover:nth-child(5) {
+            font-size: 24px;
+        } */
+
+        a:hover > div > div > div > div > div {  
+            font-size: 24px;
+        }
+        #mySection {
+            color: green;
+        }
+
+.myColor {
+  color: blue;
+}
+    </style>
     <title>Document</title>
 </head>
 <body>
@@ -12,5 +35,24 @@
     </p>
     <br>
     <h3><a href="index.html">Back to the main page</a></h3>
+  
+    <div>Hello</div>
+    <span>World!</span>
+
+    <a>
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+        <div>Div 4</div>
+        <div>Div 5</div>
+        <div>Div 6</div>
+      </a>
+
+      <div>
+        <section id="mySection" class="myColor">
+          I am having a color identity crisis again! Help!
+        </section>
+      </div>
+
 </body>
 </html>
