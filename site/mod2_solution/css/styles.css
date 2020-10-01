@@ -4,14 +4,14 @@
 }
 
 .box {
-    width: 95%;
+    width: 90%;
     border: 5px;
     margin-right: auto;
     margin-left: auto;
     padding:3px;
    }
 
-.menu-title{
+.sec-title{
     width:35%;
     float:right;
     border: 2px solid black;
@@ -50,7 +50,7 @@ h1{
 }
 
 /* Desktop */
-@media(min-width: 992px){
+@media(min-width:992px){
     .col-lg-4{
         float: left;
         width: 33.33%;
@@ -59,10 +59,16 @@ h1{
 
 /* tablet   */
 @media(min-width:768px) and (max-width:991px){
-    .col-md-6{
+    .col-md-6, .col-md-12 {
         float: left;
+        background-color: rgb(245, 245, 245);
+      }
+      .col-md-6 {
         width: 50%;
-    }
+      }
+      .col-md-12 {
+        width: 100%;
+      }
 }
 
 /* mobile */
